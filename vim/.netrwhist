@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/chris/cribz-router/examples'
+let g:netrw_dirhist_2='/home/chris/blog/test.idx'
+let g:netrw_dirhist_3='/home/chris/blog-jekyll/_posts'
+let g:netrw_dirhist_4='/home/chris/wordpress/wp-content/plugins/tracking-code'
+let g:netrw_dirhist_5='/var/www/test_sites/silverstripe'
+let g:netrw_dirhist_6='/home/chris/.irssi'
+let g:netrw_dirhist_7='/var/www/test_sites/silverstripe/themes/cribznetwork/javascript/libs'
