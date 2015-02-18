@@ -8,4 +8,5 @@
         path: vimrc
         force: true
     ~/.vim: vim
-- shell: []
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
