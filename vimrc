@@ -14,6 +14,10 @@ set smarttab
 
 set listchars=tab:>-,eol:$
 set list
+
+" set column ruler
+set colorcolumn=80,120
+
 " automatically indent files
 set autoindent
 
