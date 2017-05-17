@@ -1,15 +1,18 @@
-- clean: []
-- link:
-    ~/.bashrc:
-        path: bashrc
-        force: true
-    ~/.bashrc.d: bashrc.d
-    ~/.vimrc:
-        path: vimrc
-        force: true
-    ~/.vim: vim
-    ~/.config/openbox:
-        path: openbox
-        force: true
 - shell:
-    - [git submodule update --init --recursive, Installing submodules]
+    - [/bin/bash git submodule update --init --recursive, Installing submodules]
+    - [/bin/bash install-packages.sh, Installing packages]
+
+- link:
+    #~/.bashrc:
+    #    path: bashrc
+    #    force: true
+    #~/.bashrc.d: bashrc.d
+    #~/.vimrc:
+    #    path: vimrc
+    #    force: true
+    #~/.vim: vim
+    ~/.zshrc:
+        path: zshrc
+        force: true
+
+- clean: []
